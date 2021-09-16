@@ -1,0 +1,113 @@
+/* Основы */
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    color: #000;
+
+}
+
+.container {
+    max-width: 1366px;
+    width: 100%;
+    margin: auto;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2 {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+/* header */
+
+.header {
+    border-bottom: 5px solid #000;
+}
+
+.header__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 48px;
+    border-bottom: 10px solid #000;
+}
+
+.section__title {
+    text-align: center;
+    padding: 20px;
+    background: rgb(245, 222, 179);
+    margin-top: 30px;
+    border-top: 20px solid #000;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 444px;
+    flex-wrap: wrap;
+    font-size: 20px;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+.nav__link {
+    padding: 7px;
+    border-left: 10px double #000;
+    border-top: 10px double #000;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__text {
+    font-size: 20px;
+    padding-bottom: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section__text {
+    font-size: 26px;
+    padding: 11px 66px;
+    background: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    border-left: 20px solid #000;
+}
+
+.halls__title {
+    text-align: center;
+    padding: 20px;
+    background: rgb(245, 222, 179);
+    margin-top: 30px;
+}
+
+.hero {
+    background: url(../img/hero.jpg) no-repeat center / cover;
+    height: 4000px;
+    margin-bottom: -4000px;
+}
+
+.hhero {
+    background: url(../img/hhero.png) no-repeat center / cover;
+    height: 2000px;
+    margin-bottom: -2000px;
+}
+
+.price {
+    font-size: 20px;
+    padding: 16px 44px;
+    background: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    border-left: 20px solid rgb(72, 0, 0);
+}
+
+
+.img__person {
+    width: 480px;
+    height: 720px;
+}
